@@ -1,6 +1,0 @@
-Activity 3
-Drag and drop XML files that you created so far into EXCEL worksheet.​
-What happen?
-
-> When I drag the file, Excel converted the XML source data into schema
-  Then Excel shows the data into table formate 
