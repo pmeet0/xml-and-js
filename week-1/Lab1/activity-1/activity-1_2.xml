@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--For Group Of 10 People-->
+<Details>
+    <MyDetails>
+        <Name>PERSON-1</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-2</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-3</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-4</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-5</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-6</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-7</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-8</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-9</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+    <MyDetails>
+        <Name>PERSON-10</Name>
+        <Birthday></Birthday>
+        <Education></Education>
+        <Hobbies></Hobbies>
+        <Interest></Interest>
+    </MyDetails>
+
+</Details>

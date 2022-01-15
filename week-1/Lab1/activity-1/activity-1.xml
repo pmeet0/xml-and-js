@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MyDetails>
+    <Name>Meet Vishnubhai Patel</Name>
+    <Birthday>12-nov-1998</Birthday>
+    <Education>B.E. in computer</Education>
+    <Hobbies>
+        <Hobby1>travelling</Hobby1>
+        <Hobby2>Music</Hobby2>
+        <Hobby3>Playing Chess</Hobby3>
+    </Hobbies>
+
+    <Interest>Playing Games</Interest>
+
+</MyDetails>
+
