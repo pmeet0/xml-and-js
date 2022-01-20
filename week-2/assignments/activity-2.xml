@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<bussinesscard>
+    <Person name="person-1">
+            <HomePhone></HomePhone>
+            <WorkPhone></WorkPhone>
+            <MobilePhone></MobilePhone>
+            <email></email>
+    </Person>
+
+    <Person name="person-2">
+            <HomePhone></HomePhone>
+            <WorkPhone></WorkPhone>
+            <MobilePhone></MobilePhone>
+            <email></email>
+    </Person>
+        
+</bussinesscard>
