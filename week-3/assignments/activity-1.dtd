@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE products
+[
+<!ELEMENT products (product+)>
+<!ELEMENT product (productName, manufacturer, description?, prices+, productItems)>
+<!ATTLIST product sku ID #REQUIRED>
+<!ATTLIST product createdAt CDATA #REQUIRED>
+<!ATTLIST product shippable (true | false) "true">
+<!ELEMENT productName (#PCDATA)>
+<!ELEMENT manufacturer (#PCDATA)>
+<!ATTLIST manufacturer id (sjb-pet | acme) #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT prices (price+)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT productItems (#PCDATA)>
+]>
