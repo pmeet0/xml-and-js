@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Activity week-5</title>
+        <script language="JavaScript">
+        
+        function activityr(event) 
+        {
+            
+            event.preventDefault();
+            const form = event.target;
+
+            const inputControl = form.inputbox;
+        
+            const radioControl = form.radioa;
+
+            const inputValue = inputControl.value;
+            
+            const radioValue = radioControl.value;
+
+            const checkedValues = $('input[type=checkbox]:checked').map(function()
+            {
+                return this.value;
+            })  .get().join(",");
+
+            console.log('Selected value: ${inputValue}');
+            console.log('Selected value: ${radioValue}');
+            console.log(checkedValues);
+            
+            inputControl.value = "";
+            const radio = form.radioa;
+
+            for(var i=0;i<radio.length;i++)
+                radio[i].checked = false;
+                const c = form.game;
+            for(var i=0;i<c.length;i++)
+                c[i].checked = false;
+        }
+        </script>
+    </head>
+    <body>
+        <main>
+            <form onSubmit="return activityr(event)" method="get" action="">
+
+                <h4>Please enter Your Name:</h4>
+            
+                <input type="text" name="inputbox" value="" required /><br/><br/>     
+                    
+                <legend>DO you like playing online games?</legend> 
+                <input type="radio" id="valuey" name="radioa" value="Yes">
+                <label for="valuey">Yes</label><br>
+                <input type="radio" id="valuen" name="radioa" value="No">
+                <label for="valuen">No</label><br>
+            
+                <fieldset>      
+                    <legend>Select your favorite E-Sports game</legend> 
+                    <input type="checkbox" id="game1" name="game" value="CS:go">
+                    <label for="game1">CS:go</label><br>
+                    <input type="checkbox" id="game2" name="game" value="PUBG">
+                    <label for="game2">PUBG</label><br>
+                    <input type="checkbox" id="game3" name="game" value="Dota2">
+                    <label for="game3">Dota 2</label><br>
+                    <input type="checkbox" id="game4" name="game" value="Valorant">
+                    <label for="game4">Valorant</label><br>
+                </fieldset><br/>
+                <button type="submit">Submit</button>
+            </form>
+        </main>
+    </body>
+</html>
