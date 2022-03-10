@@ -1,0 +1,93 @@
+
+.main{
+    margin-left: 60px;
+    margin-right: 60Px;
+}
+
+h1 {
+    font-style: oblique;
+    text-align: center;
+    color: red;
+}
+
+fieldset {
+    margin-left: 30Px;
+    margin-right: 30Px;
+    background-color: wheat;
+}
+
+legend {
+    padding-left: 30Px;
+    padding-right: 30px;
+    background-color: palevioletred;
+    font-size: 40px;
+}
+
+.Label1 {
+    font-size: 18px;
+    font-weight: oblique;
+   padding-left: 60px;
+}
+
+#campuses1 {
+    margin-left: 75px;
+}
+
+#Java {
+    margin-left: 85px;
+}
+
+#female {
+    margin-left: 115px;
+}
+
+select {
+    width: 120px;
+    height: 25px;
+}
+
+input[type="text"] {
+    width: 300px;
+    height: 25px;
+    margin-left: 40px;
+}
+
+.Lcheckbox {
+    margin-right: 20px;
+}
+
+button[type="submit"] {
+    width: 20%;
+    background-color: green;
+    font-size: 16px;
+    font-weight: oblique;
+    height: 40px;
+    color: white;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+button[type="reset"] {
+    width: 20%;
+    background-color: blue;
+    font-size: 16px;
+    font-weight: oblique;
+    height: 30px;
+    color: white;
+}
+
+tr {
+    height: 40px;
+   
+}
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+
+th {
+    background-color:wheat;
+    color: black;
+    height: 30px;
+    font-size: 30px;
+    
+}

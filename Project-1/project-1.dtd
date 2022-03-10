@@ -1,0 +1,15 @@
+<!DOCTYPE catalog
+[
+<!ELEMENT Students (Student+)>
+<!ELEMENT Student (College, name, gender)>
+<!ATTLIST Student id ID #REQUIRED>
+<!ATTLIST Student CampuseS (1|2|3) "1">
+<!ELEMENT College (#PCDATA)>
+<!ATTLIST College Subject CDATA "">
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name nameId ID #REQUIRED>
+<!ATTLIST name initial CDATA "default">
+<!ELEMENT gender (#PCDATA)>
+<!ATTLIST gender genderId ID #REQUIRED>
+<!ATTLIST gender type (female|male) "female">
+]>

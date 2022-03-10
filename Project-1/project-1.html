@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Student Schedule</title>
+    <link rel="stylesheet" href="project-1.css">
+</head>
+<body>
+    <h1>Student-Schedule</h1>
+
+    <fieldset>
+        <legend>Information</legend>
+        <form onreset="onReset()">
+            
+            <br />
+            
+            <label class="Label1" for="filtertext">Search Student Name: </label>  <!--Search Student Name-->
+            <input type="text" name="filterF" id="filtertext" placeholder="Enter Name"><br /><br />
+
+            <label class="Label1">Select Campuses &nbsp;</label>    <!--checkbox box-->
+            <input type="checkbox" name="CampuseS" id="campuses1" value="1">
+            <label class="Lcheckbox" for="campuses1">IGS</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="CampuseS" id="campuses2" value="2">
+            <label class="Lcheckbox" for="campuses2">North Campuse</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" name="CampuseS" id="campuses3" value="3">
+            <label class="Lcheckbox" for="campuses3">Lakeshore</label><br /><br />
+
+            <label class="Label1">Select Subject: </label>      <!--checkbox box-->
+            <input type="checkbox" id="Java" name="SSubject" value="5201">
+            <label class="Lcheckbox" for="Java">Java Programming </label>
+            <input type="checkbox" id="XML" name="SSubject" value="5202">
+            <label class="Lcheckbox" for="XML">XML & javascript</label>
+            <input type="checkbox" id="os" name="SSubject" value="5210">
+            <label class="Lcheckbox" for="os">Advance OS</label><br /><br />
+
+            <label class="Label1" for="studentGender">Select Gender: </label>   <!--radio button for gender-->
+            <input type="radio" id="female" name="studentGender" value="female" checked>
+            <label for="female">Female</label>
+            <input type="radio" id="male" name="studentGender" value="male">
+            <label for="male">Male</label><br /><br />
+            
+            <button class="filterb" type="submit">Click To Apply-Filter</button>
+            <button class="resetb" type="reset">Click To Reset</button>
+        </form>
+    </fieldset>
+    <br /><br />
+    <label id="errorlabel">There Is No Record!</label>
+    <table id="mainID" class="main">
+        <tr>
+            <th>Student ID</th>
+            <th>Student Name</th>
+            <th>Student Gender</th>
+            <th>campus</th>
+            <th>College Number</th>
+            <th>College Subject</th>
+        </tr>
+    </table>
+    <script type="text/javascript" src="project-1.js"></script>
+   
+</body>
+</html>

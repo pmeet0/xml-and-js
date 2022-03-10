@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE Students SYSTEM "project-1.dtd">
+
+<Students>
+  <Student id="s2" CampuseS="3">
+    <College Subject="5202" >3001</College>
+    <name nameId="n892" initial="MK">Manjot Kaur</name>
+    <gender genderId="g2" type="female">female</gender>
+  </Student>
+
+  <Student id="s3" CampuseS="3">
+    <College Subject="5202" >3002</College>
+    <name nameId="n893" initial="M">Maria</name>
+    <gender genderId="g3" type="female">female</gender>
+  </Student>
+
+  <Student id="s4" CampuseS="2">
+    <College Subject="5201" >29876</College>
+    <name nameId="n894" initial="MTF">Patricia </name>
+    <gender genderId="g4" type="male">male</gender>
+  </Student>
+
+  <Student id="s5" CampuseS="3">
+    <College Subject="5210" >31894</College>
+    <name nameId="n895" initial="NJ">Noah John</name>
+    <gender genderId="g5" type="male">male</gender>
+  </Student>
+
+  <Student id="s6" CampuseS="3">
+    <College Subject="5201" >31890</College>
+    <name nameId="n896" initial="VA">Vanessa Angel</name>
+    <gender genderId="g6" type="female">female</gender>
+  </Student>
+
+  <Student id="s7" CampuseS="3">
+    <College Subject="5210" >89765</College>
+    <name nameId="n897" initial="GA">Gabrille Anvar</name>
+    <gender genderId="g7" type="female">female</gender>
+  </Student>
+
+  <Student id="s8" CampuseS="3">
+    <College Subject="5202" >67854</College>
+    <name nameId="n898" initial="BB">Bark  Bate</name>
+    <gender genderId="g8" type="male">male</gender>
+  </Student>
+
+  <Student id="s9" CampuseS="2">
+    <College Subject="5201" >57787</College>
+    <name nameId="n899" initial="BB">Ben Barnes</name>
+    <gender genderId="g9" type="female">female</gender>
+  </Student>
+
+  <Student id="s0" CampuseS="3">
+    <College Subject="5201" >265778</College>
+    <name nameId="n900" initial="TB">Tom Ben</name>
+    <gender genderId="g10" type="female">female</gender>
+  </Student>
+
+  <Student id="s1" CampuseS="3">
+    <College Subject="5210" >5656767</College>
+    <name nameId="n901" initial="C">Christian</name>
+    <gender genderId="g11" type="male">male</gender>
+  </Student>
+
+  <Student id="s2" CampuseS="3">
+    <College Subject="5202" >39897</College>
+    <name nameId="n902" initial="JB">Joe Biden</name>
+    <gender genderId="g12" type="male">male</gender>
+  </Student>
+
+  <Student id="s3" CampuseS="1">
+    <College Subject="5201" >456778</College>
+    <name nameId="n903" initial="MJ">Marie Johnston</name>
+    <gender genderId="g13" type="female">female</gender>
+  </Student>
+
+  <Student id="s4" CampuseS="1">
+    <College Subject="5202" >789768</College>
+    <name nameId="n904" initial="SBC">Sacha Baren Cohen)</name>
+    <gender genderId="g14" type="female">female</gender>
+  </Student>
+
+  <Student id="s5" CampuseS="2">
+    <College Subject="5210" >26879</College>
+    <name nameId="n905" initial="HB">Antony Bate</name>
+    <gender genderId="g15" type="male">male</gender>
+  </Student>
+
+  <Student id="s6" CampuseS="1">
+    <College Subject="5202" >343345</College>
+    <name nameId="n906" initial="CB">Charles Bate</name>
+    <gender genderId="g16" type="male">male</gender>
+  </Student>
+
+  <Student id="s7" CampuseS="2">
+    <College Subject="5201" >21787</College>
+    <name nameId="n907" initial="RK">Rajat kahira</name>
+    <gender genderId="g17" type="female">female</gender>
+  </Student>
+
+  <Student id="s8" CampuseS="2">
+    <College Subject="5202" >23998</College>
+    <name nameId="n908" initial="MVP">Meet Vishnubhai Patel</name>
+    <gender genderId="g18" type="male">male</gender>
+  </Student>
+
+  <Student id="s9" CampuseS="3">
+    <College Subject="5202" >269278</College>
+    <name nameId="n909" initial="AG">Priya Rajput</name>
+    <gender genderId="g19" type="female">female</gender>
+  </Student>
+
+  <Student id="s210" CampuseS="3">
+    <College Subject="5201" >54535</College>
+    <name nameId="n910" initial="RD">Ravi Dubey</name>
+    <gender genderId="g20" type="male">male</gender>
+  </Student>
+
+  <Student id="s211" CampuseS="3">
+    <College Subject="5210" >26876</College>
+    <name nameId="n911" initial="AH">Ankita Hussandri</name>
+    <gender genderId="g21" type="female">female</gender>
+  </Student>
+
+  <Student id="s212" CampuseS="1">
+    <College Subject="5210" >n0134256</College>
+    <name nameId="n912" initial="RM">rRani Mukarjee</name>
+    <gender genderId="g22" type="female">female</gender>>
+  </Student>
+
+  <Student id="s213" CampuseS="3">
+    <College Subject="5202" > 1765648</College>
+    <name nameId="n913" initial="AK">Amrita kaumar</name>
+    <gender genderId="g23" type="female">female</gender>
+  </Student>
+
+  <Student id="s214" CampuseS="1">
+    <College Subject="5201" >1759868</College>
+    <name nameId="n914" initial="LS">Lovepreet Singh</name>
+    <gender genderId="g24" type="male">male</gender>
+  </Student>
+
+  <Student id="s215" CampuseS="1">
+    <College Subject="5202" >666597</College>
+    <name nameId="n915" initial="W">William </name>
+    <gender genderId="g25" type="male">male</gender>
+  </Student>
+
+  <Student id="s216" CampuseS="1">
+    <College Subject="5202" >175768</College>
+    <name nameId="n916" initial="KA">kumar Aditiya</name>
+    <gender genderId="g26" type="male">male</gender>
+  </Student>
+
+  <Student id="s217" CampuseS="3">
+    <College Subject="5202" >5456656</College>
+    <name nameId="n917" initial="MM">Manan Modi </name>
+    <gender genderId="g27" type="male">male</gender>
+  </Student>
+
+  <Student id="s218" CampuseS="1">
+    <College Subject="5201" >1137778</College>
+    <name nameId="n918" initial="SB">Sean Bean</name>
+    <gender genderId="g28" type="male">male</gender>
+  </Student>
+
+  <Student id="s219" CampuseS="3">
+    <College Subject="5202" >244498</College>
+    <name nameId="n919" initial="DD">Dheeraj Dhoper</name>
+    <gender genderId="g29" type="male">male</gender>
+  </Student>
+
+  <Student id="s220" CampuseS="1">
+    <College Subject="5210" >1176767</College>
+    <name nameId="n920" initial="PM">Priya Modi</name>
+    <gender genderId="g30" type="female">female</gender>
+  </Student>
+
+  <Student id="s221" CampuseS="3">
+    <College Subject="5202" >3436565</College>
+    <name nameId="n921" initial="SS">Simon Sarah</name>
+    <gender genderId="g31" type="male">male</gender>
+  </Student>
+
+  <Student id="s222" CampuseS="2">
+    <College Subject="5202" >655557</College>
+    <name nameId="n922" initial="CJ">Charles John</name>
+    <gender genderId="g32" type="male">male</gender>
+  </Student>
+</Students>

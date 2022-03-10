@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Students">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Student" type="typeS" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="typeS">
+        <xs:sequence>
+            <xs:element name="College" type="typCollege" maxOccurs="1" />
+            <xs:element name="name" type="nameType" maxOccurs="1" />
+            <xs:element name="gender" type="genderType" maxOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required" />
+        <xs:attribute name="CampuseS" type="xs:integer" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="typCollege">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="fare" type="xs:decimal" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="nameType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="nameId" type="xs:string" use="required" />
+                <xs:attribute name="initial" type="xs:string" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+    <xs:complexType name="genderType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="genderId" type="xs:string" use="required" />
+                <xs:attribute name="type" type="xs:string" use="required" />
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+
+ </xs:schema>
