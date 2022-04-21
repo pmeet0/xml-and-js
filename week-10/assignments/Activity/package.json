@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@vercel/node": "^1.14.0",
     "nodemon": "^2.0.15"
   },
   "dependencies": {
