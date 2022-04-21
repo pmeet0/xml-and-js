@@ -9,11 +9,11 @@ const getAll = ({ id, company, brand, Dname } = {}) =>
     }
 
     if (company) {
-      result = result.filter(item => item.company === company);
+      result = result.filter(item => item.company === company.toLowerCase());
     }
 
     if (brand) {
-      result = result.filter(item => item.brand === brand);
+      result = result.filter(item => item.brand === brand.toLowerCase());
     }
 
     if (Dname) {
